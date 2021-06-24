@@ -5,6 +5,8 @@
  */
 package com.mycompany.talleruml.blueFolder;
 import com.mycompany.talleruml.greenFolder.Pago;
+import com.mycompany.talleruml.pinkFolder.Paciente;
+import com.mycompany.talleruml.pinkFolder.Doctor;
 import java.util.Date;
 
 /**
@@ -15,47 +17,22 @@ public class Cita {
     protected Date fecha;
     protected boolean pagada;
     protected String registradoPor;
+<<<<<<< HEAD
     
     
+=======
+    protected Paciente paciente;
+    protected Doctor doctor;
+
+>>>>>>> 62cbd369355b28f79cb31faeedb70eb399c0abf3
     public Cita(Date fecha, boolean pagada, String registradoPor) {
         this.fecha = fecha;
         this.pagada = pagada;
         this.registradoPor = registradoPor;
     }
 
-    public Date getFecha() {
-        return fecha;
-    }
-
-    public void setFecha(Date fecha) {
-        this.fecha = fecha;
-    }
-
-    public boolean isPagada() {
-        return pagada;
-    }
-
-    public void setPagada(boolean pagada) {
-        this.pagada = pagada;
-    }
-
-    public String getRegistradoPor() {
-        return registradoPor;
-    }
-
-    public void setRegistradoPor(String registradoPor) {
-        this.registradoPor = registradoPor;
-    }
-
     public static void realizarPago(Pago p){
         System.out.println("Aqui va el codigo");
-    } 
-    
-    
-    @Override
-    public String toString() {
-        return "Cita{" + "fecha=" + fecha + ", pagada=" + pagada + ", registradoPor=" + registradoPor + '}';
     }
-    
     
 }
