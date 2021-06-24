@@ -3,28 +3,30 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package blueFolder;
+package com.mycompany.talleruml.blueFolder;
+import com.mycompany.talleruml.greenFolder.Pago;
+import java.util.Date;
 
 /**
  *
  * @author Lolo
  */
 public class Cita {
-    protected Datetime fecha;
+    protected Date fecha;
     protected boolean pagada;
     protected String registradoPor;
 
-    public Cita(Datetime fecha, boolean pagada, String registradoPor) {
+    public Cita(Date fecha, boolean pagada, String registradoPor) {
         this.fecha = fecha;
         this.pagada = pagada;
         this.registradoPor = registradoPor;
     }
 
-    public Datetime getFecha() {
+    public Date getFecha() {
         return fecha;
     }
 
-    public void setFecha(Datetime fecha) {
+    public void setFecha(Date fecha) {
         this.fecha = fecha;
     }
 
@@ -45,7 +47,7 @@ public class Cita {
     }
 
     public static void realizarPago(Pago p){
-    
+        System.out.println("Aqui va el codigo");
     } 
     
     
