@@ -9,6 +9,6 @@ package com.mycompany.talleruml.greenFolder;
  *
  * @author Elix
  */
-public class Pago {
+public interface Pago {
     
 }
