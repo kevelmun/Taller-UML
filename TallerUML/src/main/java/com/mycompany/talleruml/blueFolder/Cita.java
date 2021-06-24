@@ -15,7 +15,8 @@ public class Cita {
     protected Date fecha;
     protected boolean pagada;
     protected String registradoPor;
-
+    
+    
     public Cita(Date fecha, boolean pagada, String registradoPor) {
         this.fecha = fecha;
         this.pagada = pagada;

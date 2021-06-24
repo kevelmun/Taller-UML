@@ -10,5 +10,5 @@ package com.mycompany.talleruml.greenFolder;
  * @author Elix
  */
 public interface Pago {
-    
+    public boolean realizarPago(float monto);
 }
