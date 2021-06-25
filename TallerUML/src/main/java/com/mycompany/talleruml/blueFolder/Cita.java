@@ -17,14 +17,9 @@ public class Cita {
     protected Date fecha;
     protected boolean pagada;
     protected String registradoPor;
-<<<<<<< HEAD
-    
-    
-=======
     protected Paciente paciente;
     protected Doctor doctor;
-
->>>>>>> 62cbd369355b28f79cb31faeedb70eb399c0abf3
+    
     public Cita(Date fecha, boolean pagada, String registradoPor) {
         this.fecha = fecha;
         this.pagada = pagada;
