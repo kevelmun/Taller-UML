@@ -14,7 +14,19 @@ import com.mycompany.talleruml.pinkFolder.Doctor;
  * @author NewPc
  */
 public class Receta {
+    protected Paciente paciente;
     protected ArrayList<Medicamento> litaMedicamentos;
     protected LocalDateTime fecha;
+
+    public Receta(Paciente paciente, LocalDateTime fecha) {
+        this.paciente = paciente;
+        this.litaMedicamentos = new ArrayList<>();
+        this.fecha = fecha;
+    }
+
+    public ArrayList<Medicamento> getLitaMedicamentos() {
+        return litaMedicamentos;
+    }
+    
     
 }

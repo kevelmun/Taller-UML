@@ -5,7 +5,7 @@
  */
 package com.mycompany.talleruml.yellowFolder;
 
-import com.mycompany.talleruml.pinkFloder.Doctor;
+import com.mycompany.talleruml.pinkFolder.Doctor;
 import java.util.ArrayList;
 
 /**
@@ -16,4 +16,10 @@ public class AreaMedica {
     protected String especialidad;
     protected float costo;
     protected ArrayList<Doctor> doctores;
+    
+    public AreaMedica(String especialidad, float costo){
+        this.especialidad=especialidad;
+        this.costo=costo;
+        doctores = new ArrayList<>();
+    }
 }

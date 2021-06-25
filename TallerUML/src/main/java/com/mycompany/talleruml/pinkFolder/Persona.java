@@ -21,7 +21,7 @@ public class Persona {
     protected String cedula;
     protected String direccion;
     protected Date fechaNac;
-    
+    protected String registradoPor;
     
     public Persona(String usuario,String clave, String nombre,String apellido,String cedula,String direccion, Date fechNac){
         //Constructor de Super Clase persona
@@ -42,4 +42,34 @@ public class Persona {
     public boolean logOut(){
         return false;
     }
+
+    public String getUsuario() {
+        return usuario;
+    }
+
+    public String getClave() {
+        return clave;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public String getCedula() {
+        return cedula;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public Date getFechaNac() {
+        return fechaNac;
+    }
+    
+    
 }
