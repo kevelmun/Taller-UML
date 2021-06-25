@@ -5,10 +5,15 @@
  */
 package com.mycompany.talleruml.yellowFolder;
 
+import com.mycompany.talleruml.pinkFloder.Doctor;
+import java.util.ArrayList;
+
 /**
  *
  * @author Elix
  */
 public class AreaMedica {
-    
+    protected String especialidad;
+    protected float costo;
+    protected ArrayList<Doctor> doctores;
 }
