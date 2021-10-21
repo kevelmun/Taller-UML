@@ -13,6 +13,7 @@ import java.util.Date;
  *
  * @author Lolo
  */
+//para las credenciales
 public class Cita {
     protected Date fecha;
     protected boolean pagada;
